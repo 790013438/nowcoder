@@ -24,4 +24,7 @@ public class Foo {
         new Foo();
         new Foo();
     }
+
+    private static Foo f = new Foo();
+
 }
