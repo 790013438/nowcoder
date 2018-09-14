@@ -14,6 +14,13 @@ public class Test {
 
     public static void main(String[] args) {
         Test t2 = new Test();
+        System.out.println(labels);
     }
 
+    static Map<Double, String> labels;
+    static {
+        labels = new HashMap<Double, String>();
+        labels.put(5.5, "five and a half");
+        labels.put(7.1, "seven point 1");
+    }
  }
