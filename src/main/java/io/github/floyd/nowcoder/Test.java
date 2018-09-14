@@ -1,3 +1,5 @@
+package io.github.floyd.nowcoder;
+
 import java.util.Map;
 import java.util.HashMap;
 
